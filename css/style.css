@@ -1,10 +1,10 @@
 /* -----------------
-google font
+>>>>>>>google font<<<<<<<
 -------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 /* -------------------------
-common styles 
+>>>>>>>common styles<<<<<<<<< 
 ---------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
@@ -27,7 +27,7 @@ hr{
     margin: 29px 0 27px 0;
 }
 /* ----------------------
- tech guys style 
+ >>>>>tech guys style<<<<<< 
  ------------------------*/
  .section-title{
      color: #562eff;
@@ -54,8 +54,8 @@ hr{
  }
 
 
-/* --------------------------
-top blogs style 
+/* ----------------------------
+>>>>>>>>top blogs style<<<<<<<< 
 -----------------------------*/
 .blogs{
     display: grid;
@@ -87,7 +87,7 @@ top blogs style
 }
 
 /* -----------------------------
-latest courses style 
+>>>>>latest courses style<<<<<<<< 
 --------------------------------*/
 .courses{
     display: grid;
@@ -123,6 +123,40 @@ latest courses style
     
 }
 
+/*-------------------------------------
+ >>>>>>>>>>Media Queries<<<<<<<<<<<<<<< 
+ -------------------------------------*/
 
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .guys, .blogs,.courses{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .guy,.blog{
+        flex-direction: column;
+        
+    }
+    .blog{
+        align-items: flex-start;
+    }
+    .blog-author{
+        margin-top: 3px;
+    }
+    .blog-title{
+        margin-bottom: 3px;
+    }
+    .course-info{
+        justify-content: flex-start;
+    }
+    .course-duration{
+        margin-left: 10px;
+    }
+
+    
+
+}
 
  
