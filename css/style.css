@@ -21,7 +21,7 @@ main{
 }
 hr{
     border: 1px solid #d1d1d1;
-    margin: 29px 0;
+    margin: 29px 0 27px 0;
 }
 /* ----------------------
  tech guys style 
@@ -49,4 +49,34 @@ hr{
      margin-left: 16px;
      font-size: 18px;
  }
+
+
+/* --------------------------
+top blogs style 
+-----------------------------*/
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9f9f9f;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562eff;
+    font-size: 16px;
+}
+
+
+
  
