@@ -86,6 +86,43 @@ top blogs style
     font-size: 16px;
 }
 
+/* -----------------------------
+latest courses style 
+--------------------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 25px;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 124px;
+    border-radius: 15px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empthy{
+    color: #aeaeae;
+}
+.course-duration{
+    background-color: #ff634748;
+    padding: 5px;
+    border-radius: 15px;
+}
+.fa-clock{
+    color: tomato;
+    
+}
+
 
 
  
